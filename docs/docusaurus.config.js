@@ -15,7 +15,7 @@ const config = {
   // Set the production URL of your site here
   url: 'https://timthedevguy-truesec.github.io/',
   // Set the /<baseUrl>/ pathname under which your site is served
-  baseUrl: '',
+  baseUrl: '/psd-doc-sample/',
 
   // GitHub pages deployment config.
   organizationName: 'FriendsOfMDT',
