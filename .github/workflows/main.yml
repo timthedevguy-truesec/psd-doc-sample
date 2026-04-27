@@ -5,8 +5,18 @@ on:
     branches:
       - main
     paths:
-      - docs/*
+      - docs/**
+      - .github/workflows/main.yml
   workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
 
 jobs:
   build:
@@ -23,9 +33,11 @@ jobs:
         with:
           node-version: 20
           cache: npm
+          cache-dependency-path: docs/package-lock.json
+          
 
       - name: Install dependencies
-        run: npm install
+        run: npm ci
       - name: Build website
         run: npm run build
 
