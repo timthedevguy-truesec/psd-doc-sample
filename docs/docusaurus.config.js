@@ -13,9 +13,9 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production URL of your site here
-  url: 'https://friendsofmdt.github.io',
+  url: 'https://timthedevguy-truesec.github.io/',
   // Set the /<baseUrl>/ pathname under which your site is served
-  baseUrl: '/PSD/',
+  baseUrl: '',
 
   // GitHub pages deployment config.
   organizationName: 'FriendsOfMDT',
