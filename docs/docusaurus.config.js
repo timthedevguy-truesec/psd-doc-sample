@@ -18,8 +18,8 @@ const config = {
   baseUrl: '/psd-doc-sample/',
 
   // GitHub pages deployment config.
-  organizationName: 'FriendsOfMDT',
-  projectName: 'PSD',
+  organizationName: 'timthedevguy-truesec',
+  projectName: 'psd-doc-sample',
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
