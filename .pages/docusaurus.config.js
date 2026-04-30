@@ -38,6 +38,7 @@ const config = {
       ({
         docs: {
           sidebarPath: './sidebars.js',
+          path: '../Documentation',
           editUrl: 'https://github.com/FriendsOfMDT/PSD/edit/master/',
         },
         blog: false,
