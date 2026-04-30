@@ -37,12 +37,12 @@ jobs:
         with:
           node-version: 20
           cache: pnpm
-          cache-dependency-path: ./.pages/package.json
+          cache-dependency-path: .pages/package.json
 
       - name: Install dependencies
         run: pnpm install --no-frozen-lockfile
       - name: Build website
-        run: pnpm run build --out-dir ./.pages/build
+        run: pnpm run build --out-dir ./build
 
       - name: Upload Build Artifact
         uses: actions/upload-pages-artifact@v3
